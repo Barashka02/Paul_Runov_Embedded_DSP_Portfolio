@@ -10,6 +10,10 @@ Firmware implementations and technical documentation for real-time DSP on an STM
 - 04 IIR Filter / Audio Restoration — Cascaded biquad IIR in C designed in Python and deployed to hardware.
 - 05 FFT — Cooley-Tukey FFT written from scratch in C including bit reversal and butterfly operations.
 
+## Embedded Projects
+
+- 09 Breakout Game — Bare metal C and Assembly on 8051 microcontroller with interrupt-driven audio via DAC, potentiometer input via ADC, and LCD display output.
+
 ## Misc
 
 - 06 Handwriting to Digital Text — Image processing and CNN in Python to convert handwritten text to digital output.
@@ -21,8 +25,10 @@ Firmware implementations and technical documentation for real-time DSP on an STM
 
 ## Hardware
 
-STM32F769I — 48kHz, Keysight oscilloscopes and function generators
+- STM32F769I Discovery Board — 48kHz real-time audio DSP
+- 8051 Microcontroller — bare metal embedded with DAC, ADC, and LCD peripherals
+- Keysight oscilloscopes and function generators
 
 ## Languages
 
-C, C++, Python
+C, C++, Assembly, Python
